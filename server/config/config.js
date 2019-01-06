@@ -48,3 +48,9 @@ SEED de autenticación
 */
 
 process.env.SEED = process.env.SEED || 'este-es-el-seed-desarrollo';
+
+/*
+googgle client
+*/
+
+process.env.CLIENTID = process.env.CLIENT_ID || ' 112266426972-96099ffucbq9t1mt9gif75tcg3ne4034.apps.googleusercontent.com';
