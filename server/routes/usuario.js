@@ -73,12 +73,12 @@ app.put('/usuario/:id', [verificaToken, verificaAdmin_Role], function(req, res) 
             return res.status(400).json({
                 ok: false,
                 err
-            })
+            });
         }
 
         res.json({
             ok: true,
-            ususario: usuarioDB
+            usuario: usuarioDB
         });
 
     });
